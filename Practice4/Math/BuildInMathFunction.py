@@ -1,0 +1,8 @@
+print(min(3, 7, 2, 9))        
+print(max([10, 5, 8])) 
+print(abs(-5))    
+print(abs(3))    
+print(abs(-2.7))
+print(round(3.6))   
+print(round(3.2)) 
+print(pow(2, 3))
