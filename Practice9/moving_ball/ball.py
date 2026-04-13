@@ -9,30 +9,28 @@ pygame.display.set_caption("Moving Balls")
 
 clock = pygame.time.Clock()
 
-# Circle settings
-radius = 25
-step = 5   # меньше шаг = плавнее движение
 
-# Border settings
+radius = 25
+step = 5   
+
+
 border_thickness = 10
 offset = 20
 
-# List of circles
+
 circles = [[WIDTH // 2, HEIGHT // 2]]
 
 while True:
-    # --- EVENTS ---
+  
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
-
-        # ➕ Создание нового круга (один раз при нажатии)
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_SPACE:
                 circles.append([WIDTH // 2, HEIGHT // 2])
 
-    # --- MOVEMENT (при удержании) ---
+   
     keys = pygame.key.get_pressed()
 
     x, y = circles[-1]
@@ -55,18 +53,18 @@ while True:
 
     circles[-1] = [x, y]
 
-    # --- DRAW ---
-    screen.fill((255, 255, 255))
+  
 
+    screen.fill((255, 255, 255))
     pygame.draw.rect(
         screen,
         (0, 0, 0),
         (0, offset, WIDTH, HEIGHT - offset),
         border_thickness
     )
-
-    for (cx, cy) in circles:
-        pygame.draw.circle(screen, (255, 0, 0), (cx, cy), radius)
-
+    
+    
+    pygame.draw.circle(screen, (255, 0, 0), (circles[-1]), radius)
+    
     pygame.display.flip()
     clock.tick(60)

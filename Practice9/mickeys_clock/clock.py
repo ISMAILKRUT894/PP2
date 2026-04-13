@@ -15,7 +15,7 @@ sec = pygame.image.load(path + 'left-hand.png')
 min = pygame.image.load(path + 'right-hand.png')
 
 run = True
-print(datetime.datetime.now().minute)
+
 while run:
 
     screen.fill('white')
