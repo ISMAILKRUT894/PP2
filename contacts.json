@@ -1,0 +1,89 @@
+[
+    {
+        "name": "Dana",
+        "email": "dana@mail.com",
+        "birthday": "2003-12-20",
+        "group": "friends",
+        "phones": [
+            {
+                "number": "87776665544",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Misha",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "name": "Diana",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "name": "Max",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "name": "Weber",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "name": "Alena",
+        "email": "alena@gmail.com",
+        "birthday": "1990-12-14",
+        "group": "Friend",
+        "phones": [
+            {
+                "number": "+77009003435",
+                "type": "work"
+            },
+            {
+                "number": "+90012132323",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Sultan",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "name": "Max",
+        "email": "max@gmail.com",
+        "birthday": "2005-01-01",
+        "group": "friends",
+        "phones": [
+            {
+                "number": "87771234567",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "name": "Ali",
+        "email": "ali@mail.com",
+        "birthday": "2004-06-15",
+        "group": "work",
+        "phones": [
+            {
+                "number": "87001112233",
+                "type": "work"
+            }
+        ]
+    }
+]

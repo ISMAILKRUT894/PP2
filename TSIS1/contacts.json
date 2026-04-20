@@ -1,0 +1,49 @@
+[
+    {
+        "name": "Dana",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "name": "Misha",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "name": "Diana",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "name": "Max",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "name": "Weber",
+        "email": null,
+        "birthday": null,
+        "group": null,
+        "phones": []
+    },
+    {
+        "name": "Alena",
+        "email": "alena@gmail.com",
+        "birthday": "1990-12-14",
+        "group": "Friend",
+        "phones": [
+            {
+                "number": "+77009003435",
+                "type": "work"
+            }
+        ]
+    }
+]
